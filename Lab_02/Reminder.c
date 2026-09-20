@@ -12,7 +12,7 @@ int main()
     printf("Enter second number:");
     scanf("%d", &b);
 
-    c = a / b;
+    c = a % b;
 
     printf("Reminder = %d", c);
 
