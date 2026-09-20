@@ -14,7 +14,7 @@ scanf("%d",&b);
 
 c = a*b;
 
-printf("multiplication=%d"c);
+printf("multiplication=%d",c);
 
   return 0;
 }  
