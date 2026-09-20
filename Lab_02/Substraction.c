@@ -14,7 +14,7 @@ scanf("%d",&b);
 
 c = a-b;
 
-printf("addition,%d",c);
+printf("substraction= %d",c);
 
   return 0;
 }  
