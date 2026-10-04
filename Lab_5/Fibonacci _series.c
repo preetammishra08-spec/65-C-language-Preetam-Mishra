@@ -3,7 +3,8 @@
 int main()
 {
     int n, num1 = 0, num2 = 1, nextnum;
-
+    printf (" My name is Preetam Mishra ");
+    
     printf("Enter the number of Fibonacci series print: ");
     scanf("%d", &n);
 
