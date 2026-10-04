@@ -10,12 +10,11 @@ int main()
 }
   // ;is missing in printf
 
-#include <stdio.h>
-
-int main()
+#include<stdio.h>
+ int main()
 {
     int a = 10, b = 20;
-
+    printf(" My name is Preetam Mishra ");
     printf("Sum = %d\n", a + b);
 
     return 0;
