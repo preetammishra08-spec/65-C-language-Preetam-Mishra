@@ -4,6 +4,8 @@ int main()
 {
     int a, b, c;
 
+    printf("  My name is Preetam Mishra ");
+    
     printf("Enter two numbers");
     scanf("%d %d", &a, &b);
 
