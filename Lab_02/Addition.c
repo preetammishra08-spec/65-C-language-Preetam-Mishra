@@ -6,6 +6,7 @@ int a;
 int b;
 int c;
 printf("My name is Preetam Mishra");
+  
 printf("Enter first number:");
 scanf("%d",&a);
 
@@ -14,7 +15,7 @@ scanf("%d",&b);
 
 c = a+b;
 
-printf("addition,%d",c);
+printf("addition=%d",c);
 
   return 0;
 }  
