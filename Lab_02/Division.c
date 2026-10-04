@@ -5,7 +5,7 @@ int main()
     int a;
     int b;
     int c;
-
+printf(" My name is Preetam Mishra");
     printf("Enter first number:");
     scanf("%d", &a);
 
