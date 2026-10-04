@@ -5,7 +5,7 @@ int main()
     signed int a = -30;
     unsigned int b = 20;
 
-   printf(" My name is Preetam Mishra ")
+   printf(" My name is Preetam Mishra ");
     
     printf("Signed value = %d\n", a);
     printf("Unsigned value = %u\n", b);
