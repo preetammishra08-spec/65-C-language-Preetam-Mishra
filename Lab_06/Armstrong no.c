@@ -1,54 +1,45 @@
-
 #include <stdio.h>
 
 int main()
 {
-    int n, original, temp, digit, digits = 0;
-    int i;
-    long long sum = 0, power;
-
-    printf( " My name is Preetam Mishra solving questions no 17\n ");
-
+    int n, t, d, count = 0;
+    long long sum = 0, p;
+   printf ( " My name is Preetam Mishra solving questions no 17 ");
+    
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    if(n < 0)
+    if (n < 0)
     {
-        printf("Negative numbers are not Armstrong numbers.");
+        printf("Not Armstrong");
         return 0;
     }
 
-    original = n;
-    temp = n;
+    t = n;
 
-    do
-    {
-        digits++;
-        temp = temp / 10;
-    }
-    while(temp != 0);
+    do {
+        count++;
+        t /= 10;
+    } while (t != 0);
 
-    temp = n;
+    t = n;
 
-    do
-    {
-        digit = temp % 10;
-        power = 1;
+    do {
+        d = t % 10;
+        p = 1;
 
-        for(i = 1; i <= digits; i++)
-        {
-            power = power * digit;
-        }
+        for (int i = 0; i < count; i++)
+            p *= d;
 
-        sum = sum + power;
-        temp = temp / 10;
-    }
-    while(temp != 0);
+        sum += p;
+        t /= 10;
 
-    if(sum == original)
-        printf("%d is an Armstrong number.", original);
+    } while (t != 0);
+
+    if (sum == n)
+        printf("Armstrong Number");
     else
-        printf("%d is not an Armstrong number.", original);
+        printf("Not Armstrong Number");
 
     return 0;
 }
